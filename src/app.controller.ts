@@ -1,9 +1,9 @@
 import { Controller, Get } from '@nestjs/common';
 
-@Controller()
+@Controller('api')
 export class AppController {
-  @Get()
-  olaMundo(): string {
-    return 'Olá Mundo!';
+  @Get('status')
+  status(): { status: string } {
+    return { status: 'ativo' };
   }
 }

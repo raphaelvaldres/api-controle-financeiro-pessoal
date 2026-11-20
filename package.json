@@ -1,7 +1,7 @@
 {
-  "name": "proj_aula7",
+  "name": "proj_aula8",
   "version": "1.0.0",
-  "description": "API de controle financeiro pessoal - Aula 7 Web Mobile",
+  "description": "Aplicação de controle financeiro pessoal - Aula 8 Web Mobile",
   "private": true,
   "license": "UNLICENSED",
   "scripts": {
